@@ -8,5 +8,10 @@
 
 import Foundation
 open class TestSwift {
-    
+    init(){
+        
+    }
+    func ttt()  {
+        
+    }
 }
