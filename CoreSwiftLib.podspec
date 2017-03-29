@@ -3,7 +3,7 @@ Pod::Spec.new do |s|
 
 
   s.name         = "CoreSwiftLib"
-  s.version      = "1.0.5"
+  s.version      = "1.0.6"
   s.summary      = "CoreSwiftLib"
   s.description  = "A short description of CoreSwiftLi A short description of CoreSwiftLi"
   s.homepage     = "https://github.com/ekachaiMobile/CoreSwiftLib"
