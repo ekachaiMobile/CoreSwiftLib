@@ -12,6 +12,6 @@ open class TestSwift {
         
     }
     public func ttt()  {
-        
+        print("ttt")
     }
 }

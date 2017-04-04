@@ -7,12 +7,15 @@
 //
 
 import UIKit
-
+import CoreSwiftLib
 class ViewController: UIViewController {
-
+    
+    let testSwift:TestSwift = TestSwift()
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        testSwift.ttt()
     }
 
     override func didReceiveMemoryWarning() {

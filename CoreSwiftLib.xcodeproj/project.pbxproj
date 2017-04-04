@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5131C8F11E935E4D00CF5FFA /* BusinessService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5131C8E41E935E4D00CF5FFA /* BusinessService.swift */; };
+		5131C8F21E935E4D00CF5FFA /* NSData+Convert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5131C8E61E935E4D00CF5FFA /* NSData+Convert.swift */; };
+		5131C8F31E935E4D00CF5FFA /* NSObject+NameOfClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5131C8E71E935E4D00CF5FFA /* NSObject+NameOfClass.swift */; };
+		5131C8F41E935E4D00CF5FFA /* ActionRequest_ApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5131C8EA1E935E4D00CF5FFA /* ActionRequest_ApiService.swift */; };
+		5131C8F51E935E4D00CF5FFA /* ActionRequest_BService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5131C8EB1E935E4D00CF5FFA /* ActionRequest_BService.swift */; };
+		5131C8F61E935E4D00CF5FFA /* ApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5131C8EC1E935E4D00CF5FFA /* ApiService.swift */; };
+		5131C8F71E935E4D00CF5FFA /* Loader_ApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5131C8ED1E935E4D00CF5FFA /* Loader_ApiService.swift */; };
+		5131C8F81E935E4D00CF5FFA /* Loader_BService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5131C8EE1E935E4D00CF5FFA /* Loader_BService.swift */; };
+		5131C8F91E935E4D00CF5FFA /* ServiceListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5131C8EF1E935E4D00CF5FFA /* ServiceListener.swift */; };
+		5131C8FA1E935E4D00CF5FFA /* ServiceResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5131C8F01E935E4D00CF5FFA /* ServiceResponse.swift */; };
 		5179D76A1E8B9C8600D5B38D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5179D7681E8B9C8600D5B38D /* Main.storyboard */; };
 		5179D76C1E8B9C8600D5B38D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5179D76B1E8B9C8600D5B38D /* Assets.xcassets */; };
 		5179D76F1E8B9C8600D5B38D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5179D76D1E8B9C8600D5B38D /* LaunchScreen.storyboard */; };
@@ -29,6 +39,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5131C8E41E935E4D00CF5FFA /* BusinessService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BusinessService.swift; sourceTree = "<group>"; };
+		5131C8E61E935E4D00CF5FFA /* NSData+Convert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSData+Convert.swift"; sourceTree = "<group>"; };
+		5131C8E71E935E4D00CF5FFA /* NSObject+NameOfClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSObject+NameOfClass.swift"; sourceTree = "<group>"; };
+		5131C8EA1E935E4D00CF5FFA /* ActionRequest_ApiService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActionRequest_ApiService.swift; sourceTree = "<group>"; };
+		5131C8EB1E935E4D00CF5FFA /* ActionRequest_BService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActionRequest_BService.swift; sourceTree = "<group>"; };
+		5131C8EC1E935E4D00CF5FFA /* ApiService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiService.swift; sourceTree = "<group>"; };
+		5131C8ED1E935E4D00CF5FFA /* Loader_ApiService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Loader_ApiService.swift; sourceTree = "<group>"; };
+		5131C8EE1E935E4D00CF5FFA /* Loader_BService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Loader_BService.swift; sourceTree = "<group>"; };
+		5131C8EF1E935E4D00CF5FFA /* ServiceListener.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceListener.swift; sourceTree = "<group>"; };
+		5131C8F01E935E4D00CF5FFA /* ServiceResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceResponse.swift; sourceTree = "<group>"; };
 		5179D7611E8B9C8600D5B38D /* CoreSwiftLib.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreSwiftLib.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5179D7691E8B9C8600D5B38D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5179D76B1E8B9C8600D5B38D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -59,6 +79,53 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5131C8E21E935E4D00CF5FFA /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				5131C8E31E935E4D00CF5FFA /* ThreadKits */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		5131C8E31E935E4D00CF5FFA /* ThreadKits */ = {
+			isa = PBXGroup;
+			children = (
+				5131C8E41E935E4D00CF5FFA /* BusinessService.swift */,
+			);
+			path = ThreadKits;
+			sourceTree = "<group>";
+		};
+		5131C8E51E935E4D00CF5FFA /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				5131C8E61E935E4D00CF5FFA /* NSData+Convert.swift */,
+				5131C8E71E935E4D00CF5FFA /* NSObject+NameOfClass.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		5131C8E81E935E4D00CF5FFA /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				5131C8E91E935E4D00CF5FFA /* API */,
+				5131C8EF1E935E4D00CF5FFA /* ServiceListener.swift */,
+				5131C8F01E935E4D00CF5FFA /* ServiceResponse.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		5131C8E91E935E4D00CF5FFA /* API */ = {
+			isa = PBXGroup;
+			children = (
+				5131C8EA1E935E4D00CF5FFA /* ActionRequest_ApiService.swift */,
+				5131C8EB1E935E4D00CF5FFA /* ActionRequest_BService.swift */,
+				5131C8EC1E935E4D00CF5FFA /* ApiService.swift */,
+				5131C8ED1E935E4D00CF5FFA /* Loader_ApiService.swift */,
+				5131C8EE1E935E4D00CF5FFA /* Loader_BService.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
 		5179D7581E8B9C8600D5B38D = {
 			isa = PBXGroup;
 			children = (
@@ -80,6 +147,9 @@
 		5179D7631E8B9C8600D5B38D /* CoreSwiftLib */ = {
 			isa = PBXGroup;
 			children = (
+				5131C8E21E935E4D00CF5FFA /* Core */,
+				5131C8E51E935E4D00CF5FFA /* Extension */,
+				5131C8E81E935E4D00CF5FFA /* Network */,
 				5179D7681E8B9C8600D5B38D /* Main.storyboard */,
 				5179D76B1E8B9C8600D5B38D /* Assets.xcassets */,
 				5179D76D1E8B9C8600D5B38D /* LaunchScreen.storyboard */,
@@ -204,7 +274,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5131C8F51E935E4D00CF5FFA /* ActionRequest_BService.swift in Sources */,
+				5131C8F41E935E4D00CF5FFA /* ActionRequest_ApiService.swift in Sources */,
+				5131C8F81E935E4D00CF5FFA /* Loader_BService.swift in Sources */,
+				5131C8F91E935E4D00CF5FFA /* ServiceListener.swift in Sources */,
+				5131C8F31E935E4D00CF5FFA /* NSObject+NameOfClass.swift in Sources */,
 				5179D7981E8BCF6D00D5B38D /* AppDelegate.swift in Sources */,
+				5131C8F21E935E4D00CF5FFA /* NSData+Convert.swift in Sources */,
+				5131C8F71E935E4D00CF5FFA /* Loader_ApiService.swift in Sources */,
+				5131C8FA1E935E4D00CF5FFA /* ServiceResponse.swift in Sources */,
+				5131C8F61E935E4D00CF5FFA /* ApiService.swift in Sources */,
+				5131C8F11E935E4D00CF5FFA /* BusinessService.swift in Sources */,
 				5179D7991E8BCF6D00D5B38D /* ViewController.swift in Sources */,
 				5179D7851E8BCCD100D5B38D /* TestSwift.swift in Sources */,
 			);
