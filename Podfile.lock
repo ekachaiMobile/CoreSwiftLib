@@ -1,0 +1,36 @@
+PODS:
+  - Alamofire (4.4.0)
+  - AlamofireImage (3.2.0):
+    - Alamofire (~> 4.1)
+  - CoreSwiftLib (1.0.8)
+  - CryptoSwift (0.6.8)
+  - DeviceKit (1.0.1)
+  - Haneke (1.0.2)
+  - SDWebImage (4.0.0):
+    - SDWebImage/Core (= 4.0.0)
+  - SDWebImage/Core (4.0.0)
+  - SwiftyJSON (3.1.4)
+
+DEPENDENCIES:
+  - Alamofire
+  - AlamofireImage
+  - CoreSwiftLib
+  - CryptoSwift
+  - DeviceKit
+  - Haneke
+  - SDWebImage
+  - SwiftyJSON
+
+SPEC CHECKSUMS:
+  Alamofire: dc44b1600b800eb63da6a19039a0083d62a6a62d
+  AlamofireImage: 157ed682cc81d3b9db4fb90c1f12180ac552d93b
+  CoreSwiftLib: fa68a1e3680adedd33f0c65260dbfdda9a17eddb
+  CryptoSwift: f21ea03ed3a94e79d241648ce26652cd4810508a
+  DeviceKit: 461e525867e48e725f41699c1cab3100df1258ff
+  Haneke: 01454a67322faa0dd9d81fc0f447885044e71521
+  SDWebImage: 76a6348bdc74eb5a55dd08a091ef298e56b55e41
+  SwiftyJSON: c2842d878f95482ffceec5709abc3d05680c0220
+
+PODFILE CHECKSUM: 54f6eedd6fb7827fac7258aac079b420d9fd8f1e
+
+COCOAPODS: 1.2.1.beta.1

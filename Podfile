@@ -1,16 +1,27 @@
+source 'https://github.com/CocoaPods/Specs.git'
 
-# Uncomment this line to define a global platform for your project
 platform :ios, '9.0'
-# Uncomment this line if you're using Swift
 use_frameworks!
 
 def shared_pods
-    pod 'CoreSwiftLib'
+    pod 'SDWebImage'
+	pod 'Alamofire'
+    pod 'AlamofireImage'
+    pod 'SwiftyJSON'
+#    pod 'SwiftString'
+	pod 'DeviceKit' 
+	pod 'CoreSwiftLib'
+    pod 'CryptoSwift'
+    pod 'Haneke'
+end
+   
 
-
+target 'CoreSwiftLib' do
+	shared_pods
 end
 
 
-target 'testsympli' do
+target 'CoreSwiftLibTests' do
     shared_pods
 end
+

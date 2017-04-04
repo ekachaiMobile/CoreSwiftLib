@@ -1,0 +1,6 @@
+framework module CoreSwiftLib {
+  umbrella header "CoreSwiftLib-umbrella.h"
+
+  export *
+  module * { export * }
+}
